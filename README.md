@@ -102,6 +102,9 @@ chart.Series.Add(new LengkoBarSeries("Profit", [| 45.0; 60.0; 75.0; 95.0; 120.0 
 form.Controls.Add(chart)
 ```
 
+<img width="1919" height="1032" alt="image" src="https://github.com/user-attachments/assets/e9f60049-d668-46c9-98f7-9ba7f89237a0" />
+
+
 ---
 
 ## Featured Chart Types
