@@ -1,0 +1,49 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lengko.Chart.WinForms", "..\..\src\Lengko.Chart.WinForms\Lengko.Chart.WinForms.csproj", "{69EF24BD-EDF8-492B-A41F-DB9C46C73DEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{5D20AA90-6969-D8BD-9DCD-8634F4692FDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lengko.Chart.Demo.CSharp", "CSharp\Lengko.Chart.Demo.CSharp.csproj", "{A138A73B-764E-46DE-B2E8-E45625BC8F42}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Lengko.Chart.Demo.VB", "VB\Lengko.Chart.Demo.VB.vbproj", "{C138A73B-764E-46DE-B2E8-E45625BC8F43}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Lengko.Chart.Demo.FSharp", "FSharp\Lengko.Chart.Demo.FSharp.fsproj", "{D138A73B-764E-46DE-B2E8-E45625BC8F44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69EF24BD-EDF8-492B-A41F-DB9C46C73DEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69EF24BD-EDF8-492B-A41F-DB9C46C73DEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69EF24BD-EDF8-492B-A41F-DB9C46C73DEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69EF24BD-EDF8-492B-A41F-DB9C46C73DEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A138A73B-764E-46DE-B2E8-E45625BC8F42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A138A73B-764E-46DE-B2E8-E45625BC8F42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A138A73B-764E-46DE-B2E8-E45625BC8F42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A138A73B-764E-46DE-B2E8-E45625BC8F42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C138A73B-764E-46DE-B2E8-E45625BC8F43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C138A73B-764E-46DE-B2E8-E45625BC8F43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C138A73B-764E-46DE-B2E8-E45625BC8F43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C138A73B-764E-46DE-B2E8-E45625BC8F43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D138A73B-764E-46DE-B2E8-E45625BC8F44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D138A73B-764E-46DE-B2E8-E45625BC8F44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D138A73B-764E-46DE-B2E8-E45625BC8F44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D138A73B-764E-46DE-B2E8-E45625BC8F44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{69EF24BD-EDF8-492B-A41F-DB9C46C73DEF} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{A138A73B-764E-46DE-B2E8-E45625BC8F42} = {5D20AA90-6969-D8BD-9DCD-8634F4692FDA}
+		{C138A73B-764E-46DE-B2E8-E45625BC8F43} = {5D20AA90-6969-D8BD-9DCD-8634F4692FDA}
+		{D138A73B-764E-46DE-B2E8-E45625BC8F44} = {5D20AA90-6969-D8BD-9DCD-8634F4692FDA}
+	EndGlobalSection
+EndGlobal
