@@ -25,6 +25,44 @@ Dedicated solution: **`Lengko.Chart.WinForms.sln`** (builds all 3 demos alongsid
 
 ---
 
+## Installation (NuGet)
+
+[![NuGet](https://img.shields.io/nuget/v/Lengko.Chart.WinForm.svg)](https://www.nuget.org/packages/Lengko.Chart.WinForm)
+[![Downloads](https://img.shields.io/nuget/dt/Lengko.Chart.WinForm.svg)](https://www.nuget.org/packages/Lengko.Chart.WinForm)
+
+Package: [Lengko.Chart.WinForm](https://www.nuget.org/packages/Lengko.Chart.WinForm) on NuGet.org.
+
+### .NET CLI
+
+```powershell
+dotnet add package Lengko.Chart.WinForm
+```
+
+### Package Manager Console (Visual Studio)
+
+```powershell
+Install-Package Lengko.Chart.WinForm
+```
+
+### PackageReference (.csproj / .vbproj / .fsproj)
+
+```xml
+<ItemGroup>
+  <PackageReference Include="Lengko.Chart.WinForm" Version="1.0.1" />
+</ItemGroup>
+```
+
+### Visual Studio GUI
+
+1. Right-click the project, then select **Manage NuGet Packages...**
+2. Open the **Browse** tab and search for `Lengko.Chart.WinForm`.
+3. Click **Install**.
+
+Supported frameworks: `net472`, `net48`, `netcoreapp3.1`, `net5.0-windows` to `net10.0-windows`.
+
+---
+
+
 ## Quick Start / How to Run
 
 ### Via Visual Studio
